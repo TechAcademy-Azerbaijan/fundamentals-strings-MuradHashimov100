@@ -1,9 +1,9 @@
-const prompt = require('prompt');
-prompt.start();
-
-
-prompt.get('input', function (err, result) {
-  
-    // Write code here
-  
-});
+  let str =  'Hello world! I learn to code.';
+    let count = 0;
+    for(let i = 0;i<str.length;i++){
+        // console.log(str[i])
+        if(str[i] == '!' ||	 str[i] == '.'){
+            count++
+        }
+    }
+    console.log(count);
